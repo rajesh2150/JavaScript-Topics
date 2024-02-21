@@ -16,6 +16,7 @@ const multiply=function(x){
     console.log(x*y)
   }
 }
-
+const multiplyOfTwo=multiply(2)
+multiplyOfTwo(2) //4
 multiply(2)(2) //4
 multiply(3)(2) //6
